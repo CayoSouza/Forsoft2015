@@ -15,12 +15,11 @@ Muito obrigado pela atenção <3
 
 [IMPORTANTE] Informações sobre Padronização das Telas.
 
-Fonte:font-awesome/css/font-awesome.min.css
-Alinhamento: esquerda
-Nome do campo: acima do campo
-Tamanho do campo(caixa): ???
-Instruções para do campo(Ex. Mínimo de 8 caracteres...): Dentro do campo, parecido com uma marca d'água.
-Cor das instruções para campo:#808080
-Cor do botão(Ex. avançar, Criar conta, Voltar, alterar): #4d68a1
+Fonte:font-awesome/css/font-awesome.min.css >>>
+Alinhamento: esquerda  >>>> 
+Nome do campo: acima do campo  >>>>
+Tamanho do campo(caixa)  >>>>>
+Instruções para do campo(Ex. Mínimo de 8 caracteres...): Dentro do campo, parecido com uma marca d'água. >>>>
+Cor das instruções para campo:#808080  >>>>> 
+Cor do botão(Ex. avançar, Criar conta, Voltar, alterar): #4d68a1 >>>>>
 
-[IMPORTANTE] Informações sobre Padronização de Nome das Telas
