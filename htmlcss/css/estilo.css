@@ -193,4 +193,30 @@ ul.alert-dropdown {
     height: 590px;
 }
 
+.centralizar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
 
+.direitar {
+    float: right;
+}
+
+.esquerdar {
+    float: left;
+}
+
+.textoCentro{
+    text-align: center;
+}
+
+.customH4{
+    margin-bottom: 0px;
+    margin-right: 62px;
+}
+
+.customH1{
+    margin-top: 0px;
+}
