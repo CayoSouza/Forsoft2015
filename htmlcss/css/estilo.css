@@ -193,6 +193,65 @@ ul.alert-dropdown {
     height: 590px;
 }
 
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main:after {
+    display: block;
+    clear: both;
+    content:"";
+}
+
+.column {
+    width: 50%;
+    min-height: 400px;
+    margin-bottom: 20px;
+    float: right;
+    display: block;
+    border: none;
+    padding-left: 5px;
+    
+}
+
+#pesagem {
+    border-right-style: solid;
+    }
+
+.header {
+    width:100%;
+    height: 130px;
+    background-color: white;
+    clear: both;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10 px;
+    text-align: center;
+}
+
+table{
+    width:70%
+}
+th {
+    height:40px;
+}
+
+#cadastrar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+}
+
+.tab {
+    color: #2b519d;
+    font-weight: bold;
+}
+
 .centralizar {
     display: block;
     margin-left: auto;
@@ -211,6 +270,7 @@ ul.alert-dropdown {
 .textoCentro{
     text-align: center;
 }
+
 
 .customH4{
     margin-bottom: 0px;
