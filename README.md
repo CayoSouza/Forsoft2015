@@ -12,3 +12,14 @@ Nunca editem ou criem nada na Master, pois isso pode ocasionar em sério problem
 Conforme mais regras forem sendo pensadas, eu vou adicionando neste documento e avisando no Facebook sobre estas atualizações, então fiquem de olho!
 
 Muito obrigado pela atenção <3
+
+[IMPORTANTE] Informações sobre Padronização das Telas.
+
+Fonte: padrão do bootstrap. As configurações de fonte já estão feitas, não criem uma nova. >>>
+Alinhamento: esquerda  >>>> 
+Nome do campo: acima do campo  >>>>
+Tamanho do campo(caixa)  >>>>>
+Instruções para do campo(Ex. Mínimo de 8 caracteres...): Dentro do campo, parecido com uma marca d'água. >>>>
+Cor das instruções para campo:#808080  >>>>> 
+Cor do botão(Ex. avançar, Criar conta, Voltar, alterar): #4d68a1 >>>>>
+
