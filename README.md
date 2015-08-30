@@ -15,7 +15,7 @@ Muito obrigado pela atenção <3
 
 [IMPORTANTE] Informações sobre Padronização das Telas.
 
-Fonte:font-awesome/css/font-awesome.min.css >>>
+Fonte: padrão do bootstrap. As configurações de fonte já estão feitas, não criem uma nova. >>>
 Alinhamento: esquerda  >>>> 
 Nome do campo: acima do campo  >>>>
 Tamanho do campo(caixa)  >>>>>
