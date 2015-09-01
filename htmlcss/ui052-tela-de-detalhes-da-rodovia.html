@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>UI052 - Tela de Detalhes da Rodovia</title>
+	<link rel="icon" type="image/ico" href="img/logo.png">
+	<link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body class="ui052">
+
+	<div id="topo">
+		<a href="inicioAgenteDNIT.html" id="logo"><img src="img/logo.png"></a>
+		<a href="inicioAgenteDNIT.html" id="nomeSistema">DigiMon - Digital Monitoring</a>
+		<ul class="botao-topo">
+			<li>
+				<a href="#" id="nomeUsuario">Agente DNIT ▼</a>
+			</li>
+		</ul>
+	</div>
+	
+	<ul class="menu">
+		<li class="ativo">
+			<a href="inicioAdministradorMinisterio.html">Home</a>
+		</li>
+		<li>
+			<a href="#">Gerir Usuários</a>
+		</li>
+		<li>
+			<a href="#">Gerir Postos</a>
+		</li>
+		<li>
+			<a href="#">Gerir Rodovias</a>
+		</li>
+		<li>
+			<a href="#">Gerir Equipamentoss</a>
+		</li>
+		
+	</ul>
+	
+	<div id="centro">
+	
+		<h1>Alterar Dados</h1>
+        <form name="detalhes-rodovia" method="post" action="#" target="_blank">
+        	<label>ID Rodovia:</label>
+            <br>
+            <input type="text" name="id-rodovia" maxlength="20">
+            <br>
+            <label>Tipo:</label>
+            <br>
+            <input type="text" name="tipo">
+            <br>
+            <label>Extensão Km:</label>
+            <br>
+            <input type="text" name="extensao">
+            <br>
+            <label>Cidade inicial:</label>
+            <br>
+            <input type="text" name="cidade-inicial">
+            <br>
+            <label>Cidade Final:</label>
+            <br>
+            <input type="text" name="cidade-final">
+            <br>
+            <input type="submit" name="button" value="Alterar Dados">
+            <br>
+            <input type="submit" name="button" value="Deletar">
+        </form>
+	<div class="footer"></div>
+    </div>
+	
+</body>
+</html>
