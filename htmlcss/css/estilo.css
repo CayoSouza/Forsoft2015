@@ -113,3 +113,49 @@ li a {
 	margin-top:90px;	
 	margin-left:280px;	
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	padding:5px;
+}
+
+table{
+	width:1000px;
+}
+
+#btn-cadalt{
+	margin-left: 28px;
+}
+
+#btn-buscar{
+	margin-left: 58px;
+}
+
+#tabela-result{
+	border: 1px solid black;
+	text-align: center;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+#tabela-result td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.tabela-result-header{
+	background-color: #2b519d;
+	color: white;
+}
+
+#btn-ativar, #btn-desativar{
+	margin-left: 20px;
+	padding: 3px;
+}
+
+.box{
+	margin-top: 50px;
+	height: 30px;
+	float: left;
+}
