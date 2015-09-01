@@ -19,7 +19,7 @@ Fonte: padrão do bootstrap. As configurações de fonte já estão feitas, não
 Alinhamento: esquerda  >>>> 
 Nome do campo: acima do campo  >>>>
 Tamanho do campo(caixa)  >>>>>
-Instruções para do campo(Ex. Mínimo de 8 caracteres...): Dentro do campo, parecido com uma marca d'água. >>>>
+Instruções para do campo(Ex. Mínimo de 8 caracteres...): Sem Instruções >>>>>>>>>>
 Cor das instruções para campo:#808080  >>>>> 
 Cor do botão(Ex. avançar, Criar conta, Voltar, alterar): #4d68a1 >>>>>
 
