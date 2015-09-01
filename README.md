@@ -19,7 +19,15 @@ Fonte: padrão do bootstrap. As configurações de fonte já estão feitas, não
 Alinhamento: esquerda  >>>> 
 Nome do campo: acima do campo  >>>>
 Tamanho do campo(caixa)  >>>>>
-Instruções para do campo(Ex. Mínimo de 8 caracteres...): Dentro do campo, parecido com uma marca d'água. >>>>
 Cor das instruções para campo:#808080  >>>>> 
 Cor do botão(Ex. avançar, Criar conta, Voltar, alterar): #4d68a1 >>>>>
 
+
+IMPORTANTE 2: Seguir o seguinte padrão de nomeação das telas : "UIXXX-<Nome da tela>.HTML" e o mesmo vale para os prints 
+"UIXXX-<Nome da tela>.JPG [Consultar documento de divisão].
+
+
+IMPORTANTE 3: Para telas de complemento (telas de mensagens), por exemplo, "cadastro realizado com sucesso", se a sua tela for UI001 - Cadastro Autônomo.html, ela deverá ser nomeada UI001[.2] - Cadastro Autônomo Mensagem.html
+
+
+IMPORTANTE 4: Respeitar as orientações de NÃO edição.
