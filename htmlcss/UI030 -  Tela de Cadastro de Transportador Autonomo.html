@@ -3,9 +3,9 @@
 
 <head>
 
-    <meta charset="utf-8">
-
-    <title>DigiMon</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+	<title>DigiMon - Cadastro Transportador Autonomo</title>
     <link rel="icon" type="image/ico" href="img/logo.png">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
@@ -27,8 +27,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="inicioAdministradorTransportador.html" id="logo"><img src="img/logo.png"></a>
-                <a class="navbar-brand top" href="inicioAdministradorTransportador.html" id="nomeSistema">DigiMon - Digital Monitoring</a>
+                <a class="navbar-brand" href="inicioTransportadorAutonomo.html" id="logo"><img src="img/logo.png"></a>
+                <a class="navbar-brand top" href="inicioTransportadorAutonomo.html" id="nomeSistema">DigiMon - Digital Monitoring</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -49,7 +49,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="nomeUsuario"><i class="fa fa-user"></i> Administrador do DNIT <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="nomeUsuario"><i class="fa fa-user"></i> Transportador Autonomo <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i> Perfil</a>
@@ -65,25 +65,21 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="active">
-                        <a href="inicioAdministradorTransportador.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                        <a href="inicioTransportadorAutonomo.html"><i class="fa fa-fw fa-home"></i> Home</a>
                     </li>
                     <li>
-                        <a href="gerirUsuario.html"><i class="fa fa-fw fa-desktop"></i>Cadastrar</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-desktop"></i>Consultar Cadastro</a>
-                    </li>
-                    <!--
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Motoristas</a>
+                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Meus dados</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Veículos de Carga</a>
                     </li>
                     <li>
+                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Fretes</a>
+                    </li>
+                    <li>
                         <a href="#"><i class="fa fa-fw fa-bar-chart-o"></i> Consulta</a>
                     </li>
--->
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -91,23 +87,46 @@
 
         <div id="page-wrapper">
 
-            <h1>Cadastro de Rodovia</h1>
+      
+		<h1> Cadastro Transportador Autônomo</h1>
+		
+		   <br>
+		   <br>
+		   <form>
+		     Matrícula:<br>
+			 <input type="text" name="matricula">
+			 <br>
+			 <br>
+			 Nome:<br>
+			 <input type="text" name="nome">
+			 <br>
+			 <br>
+			 RG:<br>
+			 <input type="text" name="rg">
+			 <br>
+			 <br>
+			 CPF:<br>
+			 <input type="text" name="cpf">
+			 <br>
+			 <br>
+			 Data de Nascimento:<br>
+			 <input type="text" name="data-de-nascimento">
+			 <br>
+			 <br>
+			 Email:<br>
+			 <input type="text" name="email">
+			 <br>
+			 <br>
+			 Grupo de usuário:<br>
+			 <select name="grupo-de-usuario" type="text">
+				<option value="autonomo">Transportador Autônomo</option>
+				<option value="outros">Outros</option>
+			 </select>
+			 <br>
+			 <br>
 
-            <!-- Tirar todos os <br> -->
-     <form action="INSERIR AQUI PRA ONDE OS DADOS VÃO.asp">
-  <b>Nome: <br><input type="text" name="fname" values=""><br>
-  Tipo:<br> <input type="text" name="lname" values=""><br>
-  Extensão(KM):<br> <input type="text" name="lname" values=""><br>
-  Cidade Inicial:<br> <input type="text" name="lname" values=""><br>
-  Cidade Final:<br> <input type="text" name="lname" values=""><br>
-  ID Rodovia:<br> <input type="text" name="lname" values=""><br>
 
-  <br>
-  <input type="submit" value="Cadastrar">  
-  <input type="submit" value="cancelar">
-  </b>
-</form>
-            <!-- /.container-fluid -->
+         
 
         </div>
         <!-- /#page-wrapper -->

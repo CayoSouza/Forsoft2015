@@ -27,8 +27,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="inicioAdministradorTransportador.html" id="logo"><img src="img/logo.png"></a>
-                <a class="navbar-brand top" href="inicioAdministradorTransportador.html" id="nomeSistema">DigiMon - Digital Monitoring</a>
+                <a class="navbar-brand" href="inicioTransportadorAutonomo.html" id="logo"><img src="img/logo.png"></a>
+                <a class="navbar-brand top" href="inicioTransportadorAutonomo.html" id="nomeSistema">DigiMon - Digital Monitoring</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -49,11 +49,11 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="nomeUsuario"><i class="fa fa-user"></i> Administrador do DNIT <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="nomeUsuario"><i class="fa fa-user"></i> Transportador Autonomo <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i> Perfil</a>
-                        </li>   
+                        </li>
                         <li class="divider"></li>
                         <li>
                             <a href="#"><i class="fa fa-fw fa-power-off"></i> Sair</a>
@@ -65,25 +65,21 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="active">
-                        <a href="inicioAdministradorTransportador.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                        <a href="inicioTransportadorAutonomo.html"><i class="fa fa-fw fa-home"></i> Home</a>
                     </li>
                     <li>
-                        <a href="gerirUsuario.html"><i class="fa fa-fw fa-desktop"></i>Cadastrar</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-desktop"></i>Consultar Cadastro</a>
-                    </li>
-                    <!--
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Motoristas</a>
+                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Meus dados</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Veículos de Carga</a>
                     </li>
                     <li>
+                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Fretes</a>
+                    </li>
+                    <li>
                         <a href="#"><i class="fa fa-fw fa-bar-chart-o"></i> Consulta</a>
                     </li>
--->
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -91,22 +87,34 @@
 
         <div id="page-wrapper">
 
-            <h1>Cadastro de Rodovia</h1>
 
+            <h2>Cadastro de Postos</h2>
             <!-- Tirar todos os <br> -->
-     <form action="INSERIR AQUI PRA ONDE OS DADOS VÃO.asp">
-  <b>Nome: <br><input type="text" name="fname" values=""><br>
-  Tipo:<br> <input type="text" name="lname" values=""><br>
-  Extensão(KM):<br> <input type="text" name="lname" values=""><br>
-  Cidade Inicial:<br> <input type="text" name="lname" values=""><br>
-  Cidade Final:<br> <input type="text" name="lname" values=""><br>
-  ID Rodovia:<br> <input type="text" name="lname" values=""><br>
 
-  <br>
-  <input type="submit" value="Cadastrar">  
-  <input type="submit" value="cancelar">
-  </b>
-</form>
+            <form action="">
+              <p>Escolha o tipo de posto para cadastrar</p>
+              <form method="post" action="">
+                <select name="Tipo de posto">
+                  <option value="pesagem">Pesagem</option>
+                  <option value="pedagio">Pedágio</option>
+                  <option value="rodoviario">Rodoviário</option>
+
+                </select><br><br>
+
+                <p class=formulario>Telefone</p>
+            <input class="campo" type="text" name="telefone" placeholder="Telefone"><br>
+                <p class=formulario>Latitude</p>
+            <input class="campo" type="text" name="latitude" placeholder="Latitude do posto"><br>
+                <p class=formulario>Longitude</p>
+            <input class="campo" type="text" name="longitude" placeholder="Longitude do posto"><br>
+                <p class=formulario>Numero de Série</p>
+            <input class="campo" type="text" name="numeroserie" placeholder="Numero de série do equipamento"><br>
+                <p class=formulario>Tipo</p>
+            <input class="campo" type="text" name="tipo" placeholder="Tipo de equipamento"><br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+            </form>
+
             <!-- /.container-fluid -->
 
         </div>
@@ -119,7 +127,7 @@
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>     
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 

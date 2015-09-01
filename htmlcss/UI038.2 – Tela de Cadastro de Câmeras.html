@@ -10,34 +10,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	
-	<style>
-
-.formulario label {
-  
-  width:16%;
-  
-  margin-right: 2px; 
-  
-}
-
-.formulario input {
- 
-  width:auto;
-}
-
-#inpmid {
-right:-16%;
-position: relative;
-}
-
-form {
-background-color:#‎4d68a1‬;
-display: inline;
-
-}
-
-</style>
 
 </head>
 
@@ -55,8 +27,8 @@ display: inline;
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="inicioAdministradorMinisterio.html" id="logo"><img src="img/logo.png"></a>
-                <a class="navbar-brand top" href="inicioAdministradorMinisterio.html" id="nomeSistema">DigiMon - Digital Monitoring</a>
+                <a class="navbar-brand" href="inicioAdministradorTransportador.html" id="logo"><img src="img/logo.png"></a>
+                <a class="navbar-brand top" href="inicioAdministradorTransportador.html" id="nomeSistema">DigiMon - Digital Monitoring</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -77,7 +49,7 @@ display: inline;
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="nomeUsuario"><i class="fa fa-user"></i> Administrador <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="nomeUsuario"><i class="fa fa-user"></i> Administrador do DNIT <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i> Perfil</a>
@@ -92,40 +64,26 @@ display: inline;
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    <li >
-                        <a href="inicioAdministradorMinisterio.html"><i class="fa fa-fw fa-home"></i> Home</a>
-                    </li>
                     <li class="active">
-                        <a href="gerirUsuario.html"><i class="fa fa-fw fa-desktop"></i> Gerir Usuários</a>
+                        <a href="inicioAdministradorTransportador.html"><i class="fa fa-fw fa-home"></i> Home</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Fretes</a>
+                        <a href="gerirUsuario.html"><i class="fa fa-fw fa-desktop"></i>Cadastrar</a>
                     </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-desktop"></i>Consultar Cadastro</a>
+                    </li>
+                    <!--
                     <li>
                         <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Motoristas</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Transportadores</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Veículos de Carga</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Postos</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Gerir Rodovias</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-edit"></i> Gerir Ocorrência</a>
-                    </li>
-                    <li>
                         <a href="#"><i class="fa fa-fw fa-bar-chart-o"></i> Consulta</a>
                     </li>
-                    <li>
-                        <a href="#"><i class="fa fa-fw fa-wrench"></i> Relatorios</a>
-                    </li>
-
+-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -133,54 +91,19 @@ display: inline;
 
         <div id="page-wrapper">
 
-         
+            <h1>Cadastro de Cameras</h1>
 
-			<h1>Alterar Dados</h1>
-			<br>
             <!-- Tirar todos os <br> -->
-			
-			<div class="formulario">
-				<form action ="UI40.1.html">
-					<label for="id"> ID do Usuário:</label><br><input type="text" name="id" value="005" disabled="disabled">
-					<br>
-					
-					<label for="senha">Senha: </label><br><input type="text" name="senha" id="senha" value="nub8rpjn">
-					<br>
-					<label for="nomeUsuario">Nome do Usuário:</label><br><input type="text" name="nomeUsuario" id="nomeUsuario" value="Robson Gueixo">
-					<br>
-					
-					<label for="email">email: </label><br><input type="text" name="email" id="email" value="robsongueixo@gmail.com">
-					<br>
-					
-					<label for="cpf">CPF:</label><br> <input type="text" id ="cpf" name="cpf" value="4895871256-10">
-					<br>
-			
-					<label for="rg">RG:</label><br><input type="text" name="rg" id="rg" value="28759514-9">
-					<br>
-					
-					<label for="nivelHierarquico">Nível Hierárquico:</label><br><input type="text" name="nivelHierarquico" id="nivelHierarquico" value="Agente">
-					<br>
-					
-					<label for="idGrupoUsuario">Id Grupo Usuário:</label><br><input type="text" name="idGrupoUsuario" id="idGrupoUsuario" value="0001" disabled="disabled">
-					<br><br>
-							<!-- DIV CONTAINER -->
-					</div>
-					
-					<input type="submit" value="Alterar dados" id="inpmid">					
-										
-				</form>
-				<form action ="UI40.2.html">
-						
-						<input type="submit" value="Deletar" id="inpmid">
-					
-				</form>
-            
-					<br><br>
-         
-            
-            <!-- /.container-fluid -->
+     <form action="INSERIR AQUI PRA ONDE OS DADOS VÃO.asp">
+  <b>Numero de serie: <br><input type="text" name="fname" values=""><br>
+  ID Camera:<br> <input type="text" name="lname" values=""><br>
 
-        </div>  
+  <br>
+  <input type="submit" value="Cadastrar">  
+  <input type="submit" value="cancelar">
+  </b>
+</form>
+            <!-- /.container-fluid -->
 
         </div>
         <!-- /#page-wrapper -->
