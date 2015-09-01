@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>DigiMon</title>
+	<link rel="icon" type="image/ico" href="img/logo.png">
+	<link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="topo">
+		<a href="inicioAdministradorMinisterio.html" id="logo"><img src="img/logo.png"></a>
+		<a href="inicioAdministradorMinisterio.html" id="nomeSistema">DigiMon - Digital Monitoring</a>
+		<ul class="botao-topo">
+			<li>
+				<a href="#" id="nomeUsuario">Administrador Ministerio ▼</a>
+			</li>
+		</ul>
+	</div>
+	
+	<ul class="menu">
+		<li>
+			<a href="inicioAdministradorMinisterio.html">Home</a>
+		</li>
+		<li class="fora">
+			Gerir
+		</li>
+		<li>
+			<a href="#">- Usuários</a>
+		</li>
+		<li>
+			<a href="#">- Fretes</a>
+		</li>
+		<li>
+			<a href="#">- Motoristas</a>
+		</li>
+		<li>
+			<a href="#">- Transportadores</a>
+		</li>
+		<li>
+			<a href="#">- Veículos de Carga</a>
+		</li>
+		<li>
+			<a href="#">- Postos</a>
+		</li>
+		<li class="ativo">
+			<a href="#">- Rodovias</a>
+		</li>
+		<li>
+			<a href="#">Ocorrência</a>
+		</li>
+		<li>
+			<a href="#">Consulta</a>
+		</li>
+		<li>
+			<a href="#">Relatorios</a>
+		</li>
+	</ul>
+	
+	<div id="centro">
+	
+		<h1>Gerir Rodovias</h1>
+		
+		
+		<div><h2>Cadastrar/Alterar</h2>
+			<label>Código</label><br>
+				<input type="text"><br>
+			<label>Nome</label><br>
+				<input type="text"><br>
+			<label>Extensão</label><br>
+				<input type="text"><br>
+			<label>Tipo</label><br>
+				<input type="radio" name="tipoRodovia" value="Federal">Federal
+				<input type="radio" name="tipoRodovia" value="Estadual">Estadual
+				<input type="radio" name="tipoRodovia" value="Municipal">Municipal<br>
+			<label>Cidade Inicial</label><br>
+				<input type="text"><br>
+			<label>Cidade Final</label><br>
+				<input type="text"><br>
+			<br>
+			<button type="submit" id="btn-cadalt">Cadastrar/Alterar</button>
+			<br>
+		<div>
+		
+		<div><h2>Consultar</h2>
+			<label>Digite algum dado da rodovia desejada</label><br>
+			<input type="text"><br>
+			<button type="submit" id="btn-buscar">Buscar</button><br>
+		</div>
+		<br>
+		<div><h3>Resultado</h3>
+			<table id="tabela-result">
+				<tr class="tabela-result-header"><td>Código</td><td>Nome</td><td>Extensão(km)</td><td>Tipo</td><td>Cidade Inicial</td><td>Cidade Final</td><td>Estado</td></tr>
+				<tr><td>1</td><td>BR-123</td><td>111</td><td>Federal</td><td>Rio de Janeiro</td><td>Niterói</td><td>Ativo</td></tr>
+				<tr><td>2</td><td>BR-321</td><td>123</td><td>Estadual</td><td>Bangu</td><td>Irajá</td><td>Ativo</td></tr>
+				<tr><td>3</td><td>BR-99</td><td>57</td><td>Municipal</td><td>Nilópolis</td><td>Ilha do Governador</td><td>Ativo</td></tr>
+				<tr><td>4</td><td>BR-71</td><td>132</td><td>Municipal</td><td>Tribobó</td><td>Xerém</td><td>Inativo</td></tr>
+			</table>
+		</div>
+		<div>
+			<h3>Ativação</h3>
+			<label>Insira o código da rodovia desejada</label><br>
+			<input type="number"><br>
+			<button type="button" id="btn-ativar">Ativar<br>
+			<button type="button" id="btn-desativar">Desativar<br>
+		</div>
+	</div>
+	
+</body>
+</html>
